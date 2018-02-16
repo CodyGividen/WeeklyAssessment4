@@ -21,8 +21,14 @@ public class Main {
          */
 
         List<String> arrayList = new ArrayList();
+        arrayList.add("white");
+        arrayList.add("tan");
+        arrayList.add("orange");
+        arrayList.add("blue");
+        arrayList.add("yellow");
+        arrayList.add("red");
 
-            }
 
-        }
+    }
+}
 

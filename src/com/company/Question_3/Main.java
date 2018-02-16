@@ -15,12 +15,14 @@ public class Main {
          */
 
         Main main = new Main();
-        main.populateArrayList();
+        main.populateArrayList(main.carsList);
+
     }
 
-    private void populateArrayList() {
+    private void populateArrayList(Car car) {
 
         carsList.add(new Car("Toyota", "Prius", "Red"));
+        System.out.println(car.getModel());
         carsList.add(new Car("Toyota", "Tacoma", "Silver"));
         carsList.add(new Car("Honda", "Civic", "Black"));
         carsList.add(new Car("Honda", "Insight", "Blue"));
