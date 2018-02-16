@@ -15,7 +15,7 @@ public class Main {
          */
 
         Main main = new Main();
-        main.populateArrayList(main.carsList);
+        //main.populateArrayList();
 
     }
 
