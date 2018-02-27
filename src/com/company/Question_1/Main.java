@@ -27,7 +27,12 @@ public class Main {
         arrayList.add("blue");
         arrayList.add("yellow");
         arrayList.add("red");
-        System.out.println(arrayList);
+
+
+        for (String item : arrayList) {
+            System.out.println(item);
+        }
+
 
 
 

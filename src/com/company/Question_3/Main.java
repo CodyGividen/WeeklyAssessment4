@@ -15,19 +15,27 @@ public class Main {
          */
 
         Main main = new Main();
-        main.populateArrayList();
+       main.populateArrayList();
 
     }
 
-    private void populateArrayList(Car car) {
+    private void populateArrayList() {
 
         carsList.add(new Car("Toyota", "Prius", "Red"));
-        System.out.println(car.getModel());
         carsList.add(new Car("Toyota", "Tacoma", "Silver"));
         carsList.add(new Car("Honda", "Civic", "Black"));
         carsList.add(new Car("Honda", "Insight", "Blue"));
         carsList.add(new Car("Tesla", "Model 3", "Grey"));
+        listModels();
+    }
+
+        private void listModels(){
+
+            for (Car car : carsList) {
+                System.out.println(car.getModel());
+
+            }
+        }
     }
 
 
-}

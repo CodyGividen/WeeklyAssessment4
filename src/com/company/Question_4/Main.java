@@ -14,10 +14,13 @@ public class Main {
         teleported to the beach".  If the number is between 91 and/or equal to 100 display, "Well, I hope you like it hot,
         you have been teleported to a volcano."
          */
+
+
+       // System.out.println("Pick a number between 1 and 100.");
         int userInput = input.nextInt();
         input.nextInt();
 
-        if (userInput <= 45) {
+        if (userInput <= 45 && userInput >= 1) {
             System.out.println("you have been teleported to a swamp.");
         } else if (userInput >= 46 && userInput <= 90) {
             System.out.println("Lucky you, you've been teleported to the beach");

@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class Menu {
 
     private Scanner input = new Scanner(System.in);
-    private final Library library = new Library();
+    private final Library library = new Library(this);
 
     protected void startMenu() {
 
